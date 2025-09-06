@@ -3,9 +3,21 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import "animate.css";
+import { useEffect } from "react";
+import axios from "axios";
+
+const API_KEY = "iJoHGTMvQ6cPMdr7v7JCgF9h4yjQKR8o1wjil2bvUY1bQOEepUGHGapS";
 
 function App() {
-  const [count, setCount] = useState(0);
+  //function to fetch image
+  const fetchImage = () => {
+    // console.log("Hello");
+    // alert("Hello");
+  };
+
+  useEffect(() => {
+    fetchImage();
+  }, []);
 
   return (
     <>
