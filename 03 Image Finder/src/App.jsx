@@ -6,7 +6,7 @@ import "animate.css";
 import { useEffect } from "react";
 import axios from "axios";
 
-const API_KEY = "iJoHGTMvQ6cPMdr7v7JCgF9h4yjQKR8o1wjil2bvUY1bQOEepUGHGapS";
+const API_KEY = "";
 
 function App() {
   //function to fetch image
