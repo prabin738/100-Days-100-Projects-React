@@ -34,6 +34,7 @@ function App() {
           <button className="text-white font-bold py-3 px-8 rounded-r-lg transition-transform hover:scale-105 cursor-pointer bg-gradient-to-br from-indigo-600 via-blue-500 to-indigo-600">
             Search
           </button>
+          <button>Download</button>
         </form>
         <div className="grid lg:grid-cols-4 lg:gap-12 gap-8 w-9/12">
           {Array(24)
